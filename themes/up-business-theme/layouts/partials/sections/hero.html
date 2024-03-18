@@ -1,4 +1,4 @@
-<section class="section hero py-5">
+<section class="section hero ">
   <div class="container">
     <div class="row flex-column flex-xl-row-reverse">
       <div class="col-12 col-xl-6  d-flex flex-column justify-content-center hero-image">
@@ -6,7 +6,7 @@
       </div>
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
         {{ with .content.title }}
-          <span class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</span>
+          <h3 class="hero-title fw-bold display-4 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</h3>
         {{ end }}
         {{ with .content.text }}
           <p class="text-center text-black-61 text-xl-start pb-4">{{ . | markdownify }}</p>

@@ -2,14 +2,14 @@ baseURL: "https://jayachristina.github.io/solution-patterns"
 theme: "up-business-theme"
 languageCode: "en-us"
 
-title: "Red Hat Solution Patterns"
+title: "Solution Patterns from Red Hat"
 
 # googleAnalytics: ""
 
 summaryLength: 20
 
 params:
-  title: "Red Hat Solution Patterns"
+  title: "Solution Patterns"
   description: "Disover the art of the possible with Red Hat's rich portfolio with real world usecases."
   images: 
     - "images/hero-image.png"
@@ -35,7 +35,7 @@ params:
 
 menus:
   main:
-    - name: "Solution Patterns"
+    - name: "Explore Patterns"
       url: "/patterns"
       weight: 2
 

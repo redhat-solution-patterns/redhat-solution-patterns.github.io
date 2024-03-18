@@ -1,6 +1,6 @@
 +++
 aliases = ["contribute"]
-title = "Contribute"
+title = "Contributors Guide"
 tags = ["index"]
 description = "Here’s the place to learn how to contribute, either to existing solution patterns or by creating new ones."
 +++

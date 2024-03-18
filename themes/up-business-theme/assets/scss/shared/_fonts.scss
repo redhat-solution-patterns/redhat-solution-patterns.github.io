@@ -26,7 +26,7 @@
 }
 
 @font-face {
-  font-family: "RedHatRedHatDisplay";
+  font-family: "RedHatDisplay";
   font-style: normal;
   font-weight: normal;
   src: url('{{ site.BaseURL }}/fonts/RedHatDisplay-Regular.woff') format('woff');
@@ -78,4 +78,18 @@
   font-style: italic;
   font-weight: 700;
   src: url('{{ site.BaseURL }}/fonts/RedHatDisplay-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: "RedHatMono";
+  font-style: italic;
+  font-weight: 700;
+  src: url('RedHatDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "RedHatMono";
+  font-style: normal;
+  font-weight: 700;
+  src: url('RedHatMono-VariableFont_wght.ttf') format('truetype');
 }

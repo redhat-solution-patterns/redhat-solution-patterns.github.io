@@ -1,7 +1,7 @@
 +++
 author = "Hugo Authors"
 title = "Appendix"
-date = "2024-03-18"
+date = "2024-03-10"
 description = "Additional installation information for your laptop while creating a new pattern documentation"
 tags = [
     "markdown",
@@ -11,7 +11,7 @@ tags = [
 
 Additional installation information for your laptop while creating a new pattern documentation
 
-
+<!--more-->
 ==== Node.js
 
 In this guide, we'll be installing Node.js 18.

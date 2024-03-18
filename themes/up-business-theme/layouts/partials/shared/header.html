@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-xl navbar-light bg-light py-4">
+<nav class="navbar navbar-dark navbar-expand-xl bg-dark py-4">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="{{ .Site.BaseURL }}">
-      {{ partial "utilities/image.html" "images/logo.png" }}
-      <span class="fs-3 fw-semibold text-uppercase text-primary">{{ .Site.Title }}</span>
+       {{ partial "utilities/image.html" "images/logo.png" }}&nbsp; &nbsp; 
+      <span class="text-light fs-3 fw-semibold text-primary">{{ .Site.Title }}</span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -11,7 +11,7 @@
       <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
         {{ range .Site.Menus.main }}
           <li class="nav-item text-center">
-            <a class="nav-link text-primary px-4" 
+            <a class="nav-link text-primary px-4 text-light " 
             {{ if or (strings.HasPrefix .URL "http") (strings.HasPrefix .URL "https") }} target="_blank"{{ end }} 
             href="{{ .URL }}">{{ .Name }}</a>
           </li>

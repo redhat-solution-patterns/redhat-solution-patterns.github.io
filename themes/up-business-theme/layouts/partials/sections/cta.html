@@ -1,23 +1,45 @@
-<section class="section cta py-5">
+<section class="section cta pb-4">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-xl-6">
-        {{ with .content.title }}
-          <h3 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h3>
-        {{ end }}
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-12 col-xl-6 text-center">
+    <hr>
+    <div class="row flex-column flex-xl-row">
+      <div class="col-12 col-xl-4  d-flex flex-column justify-content-center hero-image">
         {{ with .content.image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
       </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-12 col-xl-6 text-center">
-        {{ with .content.button }}
-          <a class="btn btn-outline-primary px-4" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
+
+      <div class="col-12 col-xl-8 d-flex flex-column">
+        <div class="pb-2">{{ with .content.title }}
+          <h5 class="fs-1 text-primary ">{{ . }}</h5>
+          {{ end }}
+        </div>
+        
+        {{ with .body.para1 }}
+          <p class="text-center text-black-61 text-xl-start pb-2">{{ . | markdownify }}</p>
         {{ end }}
+        
+        {{ with .body.para2 }}
+          <p class="text-center text-black-61 text-xl-start pb-2">{{ . | markdownify }}</p>
+        {{ end }}
+        
+        {{ with .body.para3 }}
+          <p class="text-center text-black-61 text-xl-start pb-2">{{ . | markdownify }}</p>
+        {{ end }}
+        
+        <p class="text-center text-black-61 text-xl-start pb-2">
+          Go ahead and drive innovation and boost productivity with the solution patterns.
+        </p>
+        
+        <div class="d-flex flex-column flex-xl-row">
+          {{ with .content.buttonPrimary }}
+          <a class="btn btn-primary text-light px-4 my-1" href="{{ .url }}">{{ .label }}</a>
+          {{ end }}
+
+          {{ with .content.buttonSecondary }}
+          <a class="btn btn-outline-primary px-4 my-1 ms-xl-4" href="{{ .url }}">{{ .label }}<span class="ms-2">{{
+              partial "icons/arrow-right.html" }}</span></a>
+          {{ end }}
+        </div>
       </div>
     </div>
+  </div>
   </div>
 </section>
