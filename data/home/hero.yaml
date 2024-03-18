@@ -7,7 +7,7 @@ content:
 
   buttonPrimary:
     label: "Explore Patterns"
-    url: "/patterns"
+    url: "patterns"
 
   buttonSecondary:
     label: "View on Github"

@@ -10,7 +10,7 @@ summaryLength: 20
 
 params:
   title: "Solution Patterns"
-  description: "Disover the art of the possible with Red Hat's rich portfolio with real world usecases."
+  description: "Discover the art of the possible with Red Hat's rich portfolio with real world usecases."
   images: 
     - "images/hero-image.png"
 
