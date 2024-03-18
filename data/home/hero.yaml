@@ -2,14 +2,14 @@ enabled: true
 id: "hero"
 
 content:
-  title: "How to **level up** your business"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est faucibus tellus leo non pellentesque lorem vel. Arcu magna eros, potenti duis."
+  title: "Cloud native architectures done right"
+  text: "Learn about common scenarios faced by developers and architects, its challenges and proposed architectural solutions with Red Hat technologies. Here you can find solution for diverse set of use cases on cloud adoption and application modernization, including background story, reference architecture, technical implementation of the solution and much more."
 
   buttonPrimary:
-    label: "How we work"
-    url: "#"
+    label: "Explore Patterns"
+    url: "/patterns"
 
   buttonSecondary:
-    label: "Let's talk"
-    url: ""
+    label: "View on Github"
+    url: "https://github.com/redhat-solution-patterns"
 
