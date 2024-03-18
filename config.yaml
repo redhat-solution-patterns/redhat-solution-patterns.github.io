@@ -1,4 +1,4 @@
-baseURL: "https://jayachristina.github.io/newsite"
+baseURL: "https://jayachristina.github.io/solution-patterns"
 theme: "up-business-theme"
 languageCode: "en-us"
 
@@ -36,7 +36,7 @@ params:
 menus:
   main:
     - name: "Solution Patterns"
-      url: "patterns"
+      url: "/patterns"
       weight: 2
 
     - name: "Architecture Center"
@@ -48,7 +48,7 @@ menus:
       weight: 4
 
     - name: "Contribute"
-      url: "contribute"
+      url: "/contribute"
       weight: 5
 
     - name: "Feedback"
