@@ -1,16 +1,16 @@
-baseURL: "https://www.example.com/"
+baseURL: "https://jayachristina.github.io/newsite"
 theme: "up-business-theme"
 languageCode: "en-us"
 
-title: "Up Business"
+title: "Red Hat Solution Patterns"
 
 # googleAnalytics: ""
 
 summaryLength: 20
 
 params:
-  title: "Up Business"
-  description: "We specialize in providing services to desing websites, applications, build and maintain business for customers."
+  title: "Red Hat Solution Patterns"
+  description: "Disover the art of the possible with Red Hat's rich portfolio with real world usecases."
   images: 
     - "images/hero-image.png"
 
@@ -22,49 +22,40 @@ params:
     faviconColor: "#000000"
 
   social:
-    dribbble: "#"
-    instagram: "#"
-    facebook: "#"
-    twitter: "#"
-
-  location:
-    - "3891 Ranchview Dr. Richardson, California 62639"
-    - "4517 Washington Ave. Manchester, Kentucky 39495"
+    dribbble: 
+    instagram: 
+    facebook: 
+    twitter: 
 
   contact:
     - "trungkienspktnd@gamail.com"
     - "207.555.0119"
 
-  copyright: "© 2022 Up Business All Rights Reserved"
+  copyright: "© 2024 Red Hat"
 
 menus:
   main:
-    - name: "Home"
-      url: "/#hero"
-      weight: 1
-
-    - name: "How we work"
-      url: "/#"
+    - name: "Solution Patterns"
+      url: "patterns"
       weight: 2
 
-    - name: "Our team"
-      url: "/#"
+    - name: "Architecture Center"
+      url: "https://www.redhat.com/architect/portfolio/"
       weight: 3
 
-    - name: "Pricing"
-      url: "/#"
+    - name: "Red Hat Developer"
+      url: "https://developers.redhat.com/"
       weight: 4
 
-    - name: "Blog"
-      url: "/blog"
+    - name: "Contribute"
+      url: "contribute"
       weight: 5
 
-  buttons:
-    - name: "Book a call"
-      url: "/#"
+    - name: "Feedback"
+      url: "/feedback"
       weight: 5
-      pre: "btn btn-primary text-light"
 
+  
   footer:
     - name: "Home"
       url: "/#hero"

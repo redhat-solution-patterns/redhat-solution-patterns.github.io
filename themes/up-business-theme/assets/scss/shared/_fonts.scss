@@ -15,3 +15,67 @@
   src: url('{{ site.BaseURL }}/fonts/Inter-Bold.ttf') format('truetype');
   font-weight: bold;
 }
+
+
+
+@font-face {
+  font-family: "RedHatDisplay";
+  font-style: normal;
+  font-weight: 400;
+  src: url('{{ site.BaseURL }}/fonts/RRedHatDisplay-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: "RedHatRedHatDisplay";
+  font-style: normal;
+  font-weight: normal;
+  src: url('{{ site.BaseURL }}/fonts/RedHatDisplay-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: "RedHatDisplay";
+  font-style: italic;
+  font-weight: 400;
+  src: url('{{ site.BaseURL }}/fonts/RedHatDisplay-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: "RedHatDisplay";
+  font-style: normal;
+  font-weight: 500;
+  src: url('{{ site.BaseURL }}/fonts/RedHatDisplay-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: "RedHatDisplay";
+  font-style: normal;
+  font-weight: 600;
+  src: url('{{ site.BaseURL }}/fonts/RedHatDisplay-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: "RedHatDisplay";
+  font-style: italic;
+  font-weight: 500;
+  src: url('{{ site.BaseURL }}/fonts/RedHatDisplay-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: "RedHatDisplay";
+  font-style: normal;
+  font-weight: 700;  
+  src: url('{{ site.BaseURL }}/fonts/RedHatDisplay-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: "RedHatDisplay";
+  font-style: normal;
+  font-weight: bold;
+  src: url('{{ site.BaseURL }}/fonts/RedHatDisplay-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: "RedHatDisplay";
+  font-style: italic;
+  font-weight: 700;
+  src: url('{{ site.BaseURL }}/fonts/RedHatDisplay-BoldItalic.woff') format('woff');
+}

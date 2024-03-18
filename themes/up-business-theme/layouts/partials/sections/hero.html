@@ -6,7 +6,7 @@
       </div>
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
         {{ with .content.title }}
-          <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</h3>
+          <span class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</span>
         {{ end }}
         {{ with .content.text }}
           <p class="text-center text-black-61 text-xl-start pb-4">{{ . | markdownify }}</p>
