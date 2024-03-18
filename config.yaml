@@ -52,7 +52,7 @@ menus:
       weight: 5
 
     - name: "Feedback"
-      url: "/feedback"
+      url: "https://github.com/redhat-solution-patterns/redhat-solution-patterns.github.io/issues"
       weight: 5
 
   
