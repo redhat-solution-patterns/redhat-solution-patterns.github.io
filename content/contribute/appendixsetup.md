@@ -7,6 +7,8 @@ tags = [
     "markdown",
     "text",
 ]
+headerimage = "images/contribute/appendix.png"
+cssclass = "col-12 col-md-6 col-lg-3"
 +++
 
 Additional installation information for your laptop while creating a new pattern documentation

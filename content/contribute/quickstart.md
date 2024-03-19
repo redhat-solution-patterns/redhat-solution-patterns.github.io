@@ -7,6 +7,8 @@ tags = [
     "markdown",
     "text",
 ]
+headerimage = "images/contribute/quickstart.png"
+cssclass = "col-12 col-md-6 col-lg-3"
 +++
 
 

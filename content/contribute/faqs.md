@@ -4,6 +4,8 @@ title: FAQs
 date: 2024-03-12
 description: FAQs
 math: true
+headerimage: "images/contribute/faqs.png"
+cssclass: "col-12 col-md-6 col-lg-3"
 ---
 
 Check the contributors' frequently asked questions below:

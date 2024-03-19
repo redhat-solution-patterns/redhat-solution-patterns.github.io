@@ -12,6 +12,7 @@ categories = [
 ]
 series = ["Cloud Native Applications"]
 patternurl = "https://redhat-solution-patterns.github.io/solution-pattern-instant-multicloud"
+headerimage = "images/patterns/solution-pattern-instant-multicloud.png"
 +++
 
 

@@ -7,6 +7,8 @@ tags = [
     "markdown",
     "text",
 ]
+headerimage = "images/contribute/indepth-guide.png"
+cssclass = "col-12 col-md-6 col-lg-3"
 +++
 
 An in-depth step-by-step guide to create a new site to document your solution pattern.

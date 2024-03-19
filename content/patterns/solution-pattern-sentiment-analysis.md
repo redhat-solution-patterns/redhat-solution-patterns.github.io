@@ -12,6 +12,7 @@ categories = [
 ]
 series = ["Cloud Native Applications"]
 patternurl = "https://redhat-solution-patterns.github.io/solution-pattern-sentiment-analysis"
+headerimage = "images/patterns/solution-pattern-sentiment-analysis.png"
 +++
 
 Event-driven Sentiment Analysis using Kafka, Knative and AI/ML

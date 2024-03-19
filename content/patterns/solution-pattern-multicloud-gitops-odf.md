@@ -12,6 +12,7 @@ categories = [
 ]
 series = ["Cloud Native Applications"]
 patternurl = "https://redhat-solution-patterns.github.io/solution-pattern-multicloud-gitops-odf"
+headerimage = "images/patterns/solution-pattern-multicloud-gitops-odf.png"
 +++
 
 Demonstrate how ArgoCD with Red Hat ACM can manage different clusters and applications deployed on those clusters.

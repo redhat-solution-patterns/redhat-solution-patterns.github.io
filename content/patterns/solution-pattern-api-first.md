@@ -1,18 +1,15 @@
-+++
-author = "Bernard Tison (Red Hat), Jaya Christina Baskaran (Red Hat)"
-title = "Manage and Secure APIs with an API First Approach"
-date = "2019-03-05"
-description = "Extend capabilities with no changes to legacy apps through data integration and cause no impact to the existing stack"
-tags = [
-    "3scale", "apis"
-]
-categories = [
-    "themes",
-    "syntax",
-]
-series = ["Cloud Native Applications"]
-patternurl = "https://red.ht/solution-pattern-api-first"
-+++
+---
+author: "Bernard Tison (Red Hat), Jaya Christina Baskaran (Red Hat)"
+title: "Manage and Secure APIs with an API First Approach"
+date: 2024-03-o5
+description: Extend capabilities with no changes to legacy apps through data integration and cause no impact to the existing stack
+tags: [    "3scale", "apis"]
+categories : [    "themes",    "syntax",]
+series: ["Cloud Native Applications"]
+patternurl: "https://red.ht/solution-pattern-api-first"
+headerimage: "images/patterns/solution-pattern-api-first.png"
+---
+
 
 
 

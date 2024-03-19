@@ -1,10 +1,10 @@
 +++
 author = "Bernard Tison (Red Hat), Jaya Christina Baskaran (Red Hat)"
-title = "Create multiple Kuberenetes clusters in AWS cloud directly from the Github code repository using GitHub Actions"
+title = "Cluster as a Service"
 date = "2019-03-05"
-description = "Extend capabilities with no changes to legacy apps through data integration and cause no impact to the existing stack"
+description = "Create multiple Kuberenetes clusters in AWS cloud directly from the Github code repository using GitHub Actions"
 tags = [
-    "3scale", "apis"
+    "gitops", "openshift"
 ]
 categories = [
     "themes",
@@ -12,6 +12,7 @@ categories = [
 ]
 series = ["Cloud Native Applications"]
 patternurl = "https://redhat-solution-patterns.github.io/solution-pattern-cluster-as-a-service"
+headerimage = "images/patterns/solution-pattern-cluster-as-a-service.png"
 +++
 
 
