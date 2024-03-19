@@ -2,7 +2,7 @@
 author = "Bernard Tison, Jaya Baskaran"
 title = "Recommendation Engine using Event Streaming"
 date = "2019-03-11"
-description = "Build a cloud-native recommendation engine with Kafka."
+description = "An event streaming platform using Red Hat AMQ Streams based on Apache Kafka to track user activity in real time."
 tags = [
     "kafka",
     "AMQ Streams"
@@ -17,7 +17,10 @@ externalurl = "https://redhat-solution-patterns.github.io/solution-pattern-recom
 headerimage = "images/patterns/solution-pattern-recommendation-engine.png"
 +++
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+An event streaming platform using Red Hat AMQ Streams based on Apache Kafka to track user activity in real time
+
+
+
 <!--more-->
 
 ## Headings

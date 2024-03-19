@@ -19,8 +19,6 @@ headerimage = "images/patterns/solution-pattern-modernization-cdc.png"
 
 
 Extend capabilities with no changes to legacy apps through data integration and cause no impact to the existing stack
-\n
-View | Read More
 <!--more-->
 
 This solution pattern brings an architectural solution for scenarios where services integration must happen through data integration and cause no impact to the existing stack.
