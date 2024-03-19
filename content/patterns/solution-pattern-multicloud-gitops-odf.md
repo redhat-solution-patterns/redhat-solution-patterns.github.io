@@ -11,7 +11,7 @@ categories = [
     "syntax",
 ]
 series = ["Cloud Native Applications"]
-patternurl = "https://redhat-solution-patterns.github.io/solution-pattern-multicloud-gitops-odf"
+externalurl = "https://redhat-solution-patterns.github.io/solution-pattern-multicloud-gitops-odf"
 headerimage = "images/patterns/solution-pattern-multicloud-gitops-odf.png"
 +++
 

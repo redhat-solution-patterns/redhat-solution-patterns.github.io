@@ -9,12 +9,13 @@ tags = [
 ]
 headerimage = "images/contribute/appendix.png"
 cssclass = "col-12 col-md-6 col-lg-3"
+externalurl = "https://redhat-solution-patterns.github.io/solution-patterns/appendix.html"
 +++
 
 Additional installation information for your laptop while creating a new pattern documentation
 
 <!--more-->
-==== Node.js
+= Node.js
 
 In this guide, we'll be installing Node.js 18.
 
@@ -35,7 +36,7 @@ To make Node.js 10 the default in new terminals, type:
 
 Now that you have Node.js installed, you can proceed with installing the Gulp CLI.
 
-==== Gulp 
+== Gulp 
 
 You'll need the Gulp command-line interface (CLI) to run the build.
 The Gulp CLI package provides the `gulp` command which, in turn, executes the version of Gulp declared by the project.
@@ -50,7 +51,7 @@ Verify the Gulp CLI is installed and on your PATH by running:
 
 Now that you have the prerequisites installed, you can fetch and build the UI project.
 
-=== About the Solution Pattern Site Template
+== About the Solution Pattern Site Template
 
 The template is available at: https://github.com/redhat-solution-patterns/solution-pattern-website-template.
 

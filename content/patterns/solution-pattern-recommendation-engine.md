@@ -13,6 +13,7 @@ categories = [
 ]
 series = ["Cloud Native Applications"]
 aliases = ["migrate-from-jekyl"]
+externalurl = "https://redhat-solution-patterns.github.io/solution-pattern-recommendation-engine"
 headerimage = "images/patterns/solution-pattern-recommendation-engine.png"
 +++
 

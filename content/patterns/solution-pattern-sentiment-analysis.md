@@ -11,7 +11,7 @@ categories = [
     "syntax",
 ]
 series = ["Cloud Native Applications"]
-patternurl = "https://redhat-solution-patterns.github.io/solution-pattern-sentiment-analysis"
+externalurl = "https://redhat-solution-patterns.github.io/solution-pattern-sentiment-analysis"
 headerimage = "images/patterns/solution-pattern-sentiment-analysis.png"
 +++
 

@@ -23,8 +23,14 @@
         {{else}}
         <div class="col-12 col-md-6 col-lg-4">
         {{end}}
-      
-          <a class="card text-decoration-none h-100" href="{{ .Permalink }}">
+        
+        {{ if isset .Params "externalurl"}}
+        <a class="card text-decoration-none h-100" href="{{ .Params.externalurl }}" target="_pattern">
+        {{else}}
+        <a class="card text-decoration-none h-100" href="{{ .Permalink }}">
+        {{end}}
+          
+
             <div class="aspect-ratio-62-5">              
               {{ if isset .Params "headerimage"}}
                     <img src="{{.Params.headerimage  | absURL}}" alt="" class="img-responsive">

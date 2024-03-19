@@ -9,16 +9,17 @@ tags = [
 ]
 headerimage = "images/contribute/indepth-guide.png"
 cssclass = "col-12 col-md-6 col-lg-3"
+externalurl = "https://redhat-solution-patterns.github.io/solution-patterns/contributor-in-depth.html"
 +++
 
 An in-depth step-by-step guide to create a new site to document your solution pattern.
 
 <!--more-->
 
-= Solution Patterns: Contributors Guide
+# Solution Patterns: Contributors Guide
 
 [#full-guide]
-== In-depth Guide 
+## In-depth Guide 
 
 Learn how you can create a new site to document your solution pattern.
 
@@ -28,21 +29,21 @@ video::H1_hw8LqBos[youtube, width=800, height=480]
 
 Next, see all the details on how to get up and running with your documentation.
 
-== 1. Create a new project
+## 1. Create a new project
 
 To create a new solution pattern site follow the steps below:
 
 . Access https://github.com/redhat-solution-patterns/solution-pattern-website-template;
 . Click on the `Use this template` green button;
 . Type the name of your solution pattern, e.g. "solution-pattern-xyz".
-.. Check the *Include all branches* to ensure the github pages get deployed correctly.
-.. Start the project in one of your organizations. Once you're ready to publish your first version, you can move or fork the repository into the https://github.com/redhat-solution-patterns[redhat-solution-patterns] organization. 
-.. To avail of the githubpage to publish your documentation, keep the repository as public.
-.. Click on *"Create repository"*;
+** Check the *Include all branches* to ensure the github pages get deployed correctly.
+** Start the project in one of your organizations. Once you're ready to publish your first version, you can move or fork the repository into the https://github.com/redhat-solution-patterns[redhat-solution-patterns] organization. 
+** To avail of the githubpage to publish your documentation, keep the repository as public.
+** Click on *"Create repository"*;
 . Click on the `Create repository from template` button.
 . In a few seconds, you should have a new repository with the required files and configurations to get started with content development.
 . In the *Settings* tab of the new repo, from left-hand nav, go to "General > Code and automation > Actions > General"
-.. Scroll to the bottom of the page to the section *Workflow permissions*. Choose *Read and write permissions* and click *Save*
+** Scroll to the bottom of the page to the section *Workflow permissions*. Choose *Read and write permissions* and click *Save*
 
 ****
 .Using a template to be efficiently consistent 
@@ -55,9 +56,9 @@ For more details check the section: <<About the Solution Pattern Site Template>>
 Using this project's template, developers can easily create new doc pages with a default layout, pages, headings, and configurations.
 ****
 
-== 2. Build and run
+## 2. Build and run
 
-=== 2.1 Prerequisites
+### 2.1 Prerequisites
 You'll need the following software:
 
 * Git (command: git)
@@ -67,7 +68,7 @@ You'll need the following software:
 [TIP]
 For information on how to install the prerequisites, refer to <<_additional_installation_information>>
 
-=== 2.2 Setting up the new project
+### 2.2 Setting up the new project
 
 . Using a terminal, clone and access the generated project:
 +
@@ -85,7 +86,7 @@ cd solution-pattern-xyz
 npm install
 ```
 
-=== 2.3 Starting live preview mode
+### 2.3 Starting live preview mode
 
 . To build and preview the project locally you can run:
 +
@@ -100,7 +101,7 @@ The browser should open automatically, and you can also see the endpoint listed 
 
 
 [#structure]
-=== 2.4 The project's structure
+### 2.4 The project's structure
 
 . Website configuration::
 There are three main configuration files to be aware of: `antora.yml`, `dev-site.yml` and `site.yml`.
@@ -126,21 +127,21 @@ You have a coherent content structure at hand. It includes:
 ** Headings that follow those of other existing solution patterns very closely.
 +
 [CAUTION]
-====
+####
 Feel free to remove and adjust what doesn't serve you. However, it's highly recommended to stick to the suggested level 1 headings (e.g., "= Title"). For subheadings (h2+), try to stick to what's proposed for consistency, but go ahead and use different and more adequate subtitles when you need to.
-====
+####
 
-== 3. Document 
+## 3. Document 
 
 In this phase you'll share all your knowledge while adopting adoc's language and components in the pages amongst the project's content structure. 
 
-=== 3.1 Language and components 
+### 3.1 Language and components 
 
 For a majority of the work, you are welcome to use several of what Asciidoc components have to offer. Get started with https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[AsciiDoc Language Syntax quick reference,window=_blank].Adding to that, you can also use the features provided by Red Hat Developers for the Scholars template, such as clipboard, tabs and different formats for console input and output.
 
 See syntax highlights in the xref:highlights[Appendix: Documentation Syntax Highlights].
 
-=== 3.2 Content structure
+### 3.2 Content structure
 
 The solution patterns are structured in four major sections (which are also part of the navigation menu):
 
@@ -151,17 +152,17 @@ The solution patterns are structured in four major sections (which are also part
 
 Refer to existing solution patterns for inspiration on ideas you can adopt on your own solution pattern documentation. 
 
-== 4.Publish
+## 4.Publish
 
 . Make all the necessary changes to the cloned repo. Refer to these sections for more details on how to do this.
 ** Get familiar with  xref::contributor-in-depth.adoc#structure[the project's structure].
 ** xref::creating-solution-pattern-website.adoc#_language_and_components[Know the available capabilities to boost your document].
 . To deploy the repo as github pages, you will need to manage GitHub Actions settings for your new repository. Navigate to the *Settings* tab
-.. From left hand nav, go to *General > Code and automation > Actions > General*
+** From left hand nav, go to *General > Code and automation > Actions > General*
 +
 image::code-automation-general.png[]
-.. Scroll to the bottom of the page to the section *Workflow permissions*. 
-.. Choose *Read and write permissions* and click *Save*
+** Scroll to the bottom of the page to the section *Workflow permissions*. 
+** Choose *Read and write permissions* and click *Save*
 +
 image::read-write-permissions.png[]
 * After your changes are made, commit and push your changes to git. This will auto-trigger a workflow which will deploy the pages as github pages.
