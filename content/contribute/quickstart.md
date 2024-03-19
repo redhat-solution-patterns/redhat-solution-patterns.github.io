@@ -13,7 +13,7 @@ externalurl = "https://redhat-solution-patterns.github.io/solution-patterns/cont
 +++
 
 
-Run through this 15-minute section to get started quickly. 
+Run through this 15-minute ![](image::/images/apim/image::/images/imagesection[].png) to get started quickly. 
 
 <!--more-->
 
