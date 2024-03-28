@@ -6,7 +6,7 @@ content:
   image: "images/services-web-development.png"
   buttonPrimary:
     label: "Contribute"
-    url: "/contribute"
+    url: "contribute"
 body:
   para1: "The Red Hat cloud native architecture (CNA) solution patterns are a set of opinionated practices on how to design, develop, integrate, automate and deliver cloud native applications. It targets common problems and use cases faced by organizations that target digital transformation through cloud adoption and who are on the journey of app modernization."
   para2: "Each solution pattern documents a specific reference architecture that can be replicated or can be used to inspire technical decision makers on how to achieve their goals."
