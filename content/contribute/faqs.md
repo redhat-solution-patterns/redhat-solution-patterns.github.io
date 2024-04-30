@@ -6,7 +6,7 @@ description: FAQs
 math: true
 headerimage: "images/contribute/faqs.png"
 cssclass: "col-12 col-md-6 col-lg-3"
-externalurl: https://redhat-solution-patterns.github.io/solution-patterns/patterns/contributors-faq.html
+externalurl: https://redhat-solution-patterns.github.io/contributors-guide/patterns/contributors-faq.html
 ---
 
 Check the contributors' frequently asked questions below:

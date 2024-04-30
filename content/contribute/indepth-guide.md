@@ -9,7 +9,7 @@ tags = [
 ]
 headerimage = "images/contribute/indepth-guide.png"
 cssclass = "col-12 col-md-6 col-lg-3"
-externalurl = "https://redhat-solution-patterns.github.io/solution-patterns/patterns/contributor-in-depth.html"
+externalurl = "https://redhat-solution-patterns.github.io/contributors-guide/patterns/contributor-in-depth.html"
 +++
 
 An in-depth step-by-step guide to create a new site to document your solution pattern.
