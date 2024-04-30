@@ -9,7 +9,7 @@ tags = [
 ]
 headerimage = "images/contribute/quickstart.png"
 cssclass = "col-12 col-md-6 col-lg-3"
-externalurl = "https://redhat-solution-patterns.github.io/solution-patterns/contributors-quickstart.html"
+externalurl = "https://redhat-solution-patterns.github.io/patterns/contributors-quickstart.html"
 +++
 
 
