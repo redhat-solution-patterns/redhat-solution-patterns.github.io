@@ -9,7 +9,7 @@ tags = [
 ]
 headerimage = "images/contribute/appendix.png"
 cssclass = "col-12 col-md-6 col-lg-3"
-externalurl = "https://redhat-solution-patterns.github.io/patterns/appendix.html"
+externalurl = "https://redhat-solution-patterns.github.io/solution-patterns/patterns/appendix.html"
 +++
 
 Additional installation information for your laptop while creating a new pattern documentation
