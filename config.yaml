@@ -38,7 +38,7 @@ params:
 menus:
   main:
     - name: "Explore Patterns"
-      url: "/patterns"
+      url: "/solution-patterns"
       weight: 2
 
     - name: "Architecture Center"
