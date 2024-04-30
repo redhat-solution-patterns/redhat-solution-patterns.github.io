@@ -1,4 +1,4 @@
-baseURL: "https://jayachristina.github.io/solution-patterns"
+baseURL: "https://redhat-solution-patterns.github.io/solution-patterns"
 theme: "up-business-theme"
 languageCode: "en-us"
 
@@ -7,6 +7,8 @@ title: "Solution Patterns from Red Hat"
 # googleAnalytics: ""
 
 summaryLength: 20
+
+paginate: 20
 
 params:
   title: "Solution Patterns"

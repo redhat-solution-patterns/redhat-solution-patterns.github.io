@@ -1,7 +1,7 @@
 +++
 author = "Michael Thirion(Red Hat)"
 title = "Fuse to Apache Camel migration"
-date = "2019-03-05"
+date = "2019-04-01"
 description = "An accelerated path to migrating applications from Red Hat Fuse to Red Hat Build of Apache Camel based on templates."
 tags = [
     "3scale", "apis"
@@ -14,7 +14,6 @@ series = ["Cloud Native Applications"]
 externalurl = "https://redhat-solution-patterns.github.io/solution-pattern-camel-migration"
 headerimage = "images/patterns/solution-pattern-camel-migration.png"
 +++
-
 
 An accelerated path to migrating applications from Red Hat Fuse to Red Hat Build of Apache Camel based on templates.
 
