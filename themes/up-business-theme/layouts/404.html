@@ -1,3 +1,10 @@
-It is true, we have lost this page.
+{{ define "main" }}
+  {{ with .Site.Data.home.hero }}{{ partial "sections/hero.html" . }}{{ end }}
+  {{ with .Site.Data.home.brands }}{{ partial "sections/brands.html" . }}{{ end }}
+  {{ with .Site.Data.home.portfolio }}{{ partial "sections/portfolio.html" . }}{{ end }}
 
-Please navigate to the home page and explore more Solution Patterns.
+  It is true, we have lost this page.
+
+  Please navigate to the home page and explore more Solution Patterns.
+
+  {{ end }}
