@@ -1,5 +1,5 @@
 +++
-aliases = ["solution-patterns", "patterns", "showcase"]
+aliases = ["solution-patterns", "solution-patterns/patterns", "patterns", "showcase"]
 title = "Explore Solution Patterns"
 tags = ["index"]
 +++
