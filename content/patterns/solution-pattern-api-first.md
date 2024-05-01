@@ -6,7 +6,7 @@ description: Extend capabilities with no changes to legacy apps through data int
 tags: [    "3scale", "apis"]
 categories : [    "themes",    "syntax",]
 series: ["Cloud Native Applications"]
-externalurl: "https://red.ht/solution-pattern-api-first"
+externalurl: "https://www.solutionpatterns.io/solution-pattern-api-first"
 headerimage: "images/patterns/solution-pattern-api-first.png"
 ---
 
