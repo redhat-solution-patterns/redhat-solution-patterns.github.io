@@ -12,7 +12,7 @@ categories = [
     "syntax",
 ]
 series = ["Cloud Native Applications"]
-externalurl = "https://redhat-solution-patterns.github.io/solution-pattern-multi-channel-messaging-platform"
+externalurl = "https://www.solutionpatterns.io/solution-pattern-multi-channel-messaging-platform"
 headerimage = "images/patterns/solution-pattern-edge-to-cloud-pipelines.png"
 +++
 
