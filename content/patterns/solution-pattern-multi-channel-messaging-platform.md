@@ -5,7 +5,7 @@ title = "Build an extendable Multi-Channel Messaging Platform"
 date = "2024-06-15"
 description = "Build an extendable Multi-Channel Messaging Platform"
 tags = [
-    "kafka", "camel", "amq", "datagrid"
+    "kafka", "camel", "AMQ", "AMQ Streams", "datagrid"
 ]
 categories = [
     "themes",
