@@ -1,8 +1,8 @@
 +++
 author = "Gaurav Midha (Red Hat), Ritesh Shah (Red Hat)"
-title = "Predict stock price trend using Red Hat OpenShift AI"
+title = "Machine Learning and Data Science Pipelines"
 date = "2019-06-03"
-description = "Predict stock price trends with OpenShift AI, Machine Learning models and Data Science pipelines"
+description = "A practical example to deploy machine learning model using data science pipelines with OpenShift AI"
 tags = [    "rhoai", "aiml"]
 categories = [    "themes",    "syntax",]
 series = ["AI/ML Applications"]
