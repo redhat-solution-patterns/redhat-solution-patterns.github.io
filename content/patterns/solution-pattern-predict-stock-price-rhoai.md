@@ -13,7 +13,7 @@ headerimage = "images/patterns/solution-pattern-predict-stock-price-rhoai.png"
 
 
 
-Predict stock price trends with OpenShift AI, Machine Learning models and Data Science pipelines
+A practical example to deploy machine learning model using data science pipelines with OpenShift AI
 
 
 <!--more-->
