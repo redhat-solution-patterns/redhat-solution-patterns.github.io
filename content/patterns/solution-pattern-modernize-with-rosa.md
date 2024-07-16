@@ -11,7 +11,7 @@ categories = [
     "syntax",
 ]
 series = ["Cloud Native Applications"]
-externalurl = "https://redhat-solution-patterns.github.io/solution-pattern-modernize-with-rosa"
+externalurl = "https://www.solutionpatterns.io/solution-pattern-modernize-with-rosa"
 headerimage = "images/patterns/solution-pattern-modernize-with-rosa.png"
 +++
 

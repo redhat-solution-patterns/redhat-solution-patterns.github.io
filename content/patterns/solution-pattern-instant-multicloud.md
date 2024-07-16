@@ -11,7 +11,7 @@ categories = [
     "syntax",
 ]
 series = ["Cloud Native Applications"]
-externalurl = "https://redhat-solution-patterns.github.io/solution-pattern-instant-multicloud"
+externalurl = "https://www.solutionpatterns.io/solution-pattern-instant-multicloud"
 headerimage = "images/patterns/solution-pattern-instant-multicloud.png"
 +++
 

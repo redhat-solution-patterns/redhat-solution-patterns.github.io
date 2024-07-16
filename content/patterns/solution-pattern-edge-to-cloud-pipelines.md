@@ -11,7 +11,7 @@ categories = [
     "syntax",
 ]
 series = ["Cloud Native Applications"]
-externalurl = "https://redhat-solution-patterns.github.io/solution-pattern-edge-to-cloud-pipelines"
+externalurl = "https://www.solutionpatterns.io/solution-pattern-edge-to-cloud-pipelines"
 headerimage = "images/patterns/solution-pattern-edge-to-cloud-pipelines.png"
 +++
 

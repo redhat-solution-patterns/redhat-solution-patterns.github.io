@@ -11,7 +11,7 @@ categories = [
     "syntax",
 ]
 series = ["Cloud Native Applications"]
-externalurl = "https://red.ht/solution-pattern-modernization-cdc"
+externalurl = "https://www.solutionpatterns.io/solution-pattern-modernization-cdc"
 headerimage = "images/patterns/solution-pattern-modernization-cdc.png"
 +++
 

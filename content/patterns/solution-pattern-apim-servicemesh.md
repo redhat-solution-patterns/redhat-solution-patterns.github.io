@@ -11,7 +11,7 @@ categories = [
     "syntax",
 ]
 series = ["Cloud Native Applications"]
-externalurl = "https://redhat-solution-patterns.github.io/solution-pattern-apim-servicemesh"
+externalurl = "https://www.solutionpatterns.io/solution-pattern-apim-servicemesh"
 headerimage = "images/patterns/solution-pattern-apim-servicemesh.png"
 +++
 

@@ -11,7 +11,7 @@ categories = [
     "syntax",
 ]
 series = ["Cloud Native Applications"]
-externalurl = "https://redhat-solution-patterns.github.io/solution-pattern-camel-migration"
+externalurl = "https://www.solutionpatterns.io/solution-pattern-camel-migration"
 headerimage = "images/patterns/solution-pattern-camel-migration.png"
 +++
 
