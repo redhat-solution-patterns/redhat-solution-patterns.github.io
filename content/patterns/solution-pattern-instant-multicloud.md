@@ -27,4 +27,4 @@ This solution pattern brings an architectural solution demonstrating how easily 
 
 Contributors: _Garav Midha (Red Hat)_
 
-Explore the Solution Pattern: https://redhat-solution-patterns.github.io/solution-pattern-instant-multicloud
+Explore the Solution Pattern: https://www.solutionpatterns.io/solution-pattern-instant-multicloud

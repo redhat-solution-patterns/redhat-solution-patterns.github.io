@@ -9,7 +9,7 @@ tags = [
 ]
 headerimage = "images/contribute/appendix.png"
 cssclass = "col-12 col-md-6 col-lg-3"
-externalurl = "https://redhat-solution-patterns.github.io/contributors-guide/patterns/appendix.html"
+externalurl = "https://www.solutionpatterns.io/contributors-guide/patterns/appendix.html"
 +++
 
 Additional installation information for your laptop while creating a new pattern documentation
@@ -58,7 +58,7 @@ The template is available at: https://github.com/redhat-solution-patterns/soluti
 This strategy benefits content writers by:
 
 * Allowing for a simple projects creation flow: a couple of clicks and it's done;
-* Providing, for free, a compatible look and feel with other https://redhat-solution-patterns.github.io/[existing solution patterns];
+* Providing, for free, a compatible look and feel with other https://www.solutionpatterns.io/[existing solution patterns];
 * Recommended high-level page structure, sections, and navigation menu, providing readers a similar experience across different solution patterns;
 * Several documentation code samples that show useful features available;
 * Allowing focus on what matters - the content. Using Asciidoc, there's no need to spend extra hours on CSS customization for page and text formatting.

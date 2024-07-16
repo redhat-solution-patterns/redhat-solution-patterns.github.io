@@ -31,4 +31,4 @@ In this solution pattern you will discover how an API First Approach provides th
 
 Contributors: _Garav Midha (Red Hat)_
 
-Explore the Solution Pattern: https://redhat-solution-patterns.github.io/solution-pattern-modernize-with-rosa
+Explore the Solution Pattern: https://www.solutionpatterns.io/solution-pattern-modernize-with-rosa

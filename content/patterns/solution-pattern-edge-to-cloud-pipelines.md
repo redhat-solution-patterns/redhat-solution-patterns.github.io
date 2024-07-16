@@ -24,4 +24,4 @@ This architecture demonstrates how an Event-Driven Architecture with Red Hat AMQ
 
 Contributors: _Bruno Meseguer (Red Hat), Huge Guerrero (Red Hat)_
 
-Explore the Solution Pattern: https://redhat-solution-patterns.github.io/solution-pattern-edge-to-cloud-pipelines
+Explore the Solution Pattern: https://www.solutionpatterns.io/solution-pattern-edge-to-cloud-pipelines

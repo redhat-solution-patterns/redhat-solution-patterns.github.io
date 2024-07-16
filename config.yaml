@@ -1,4 +1,4 @@
-baseURL: "https://redhat-solution-patterns.github.io/solution-patterns"
+baseURL: "https://www.solutionpatterns.io/solution-patterns"
 theme: "up-business-theme"
 languageCode: "en-us"
 

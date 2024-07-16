@@ -27,4 +27,4 @@ The architecture demonstrates how ArgoCD with Red Hat ACM can manage different c
 
 Contributors: _Gaurav Midha (Red Hat)_
 
-Explore the Solution Pattern: https://redhat-solution-patterns.github.io/solution-pattern-multicloud-gitops-odf
+Explore the Solution Pattern: https://www.solutionpatterns.io/solution-pattern-multicloud-gitops-odf

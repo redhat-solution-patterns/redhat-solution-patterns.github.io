@@ -27,4 +27,4 @@ This solution pattern helps you understand how to use these solutions together t
 
 Contributors: _Jaya Baskaran (Red Hat), Ritesh Shah (Red Hat)_
 
-Explore the Solution Pattern: https://redhat-solution-patterns.github.io/solution-pattern-apim-servicemesh
+Explore the Solution Pattern: https://www.solutionpatterns.io/solution-pattern-apim-servicemesh

@@ -33,4 +33,4 @@ With this solution pattern you will find a guided way to perform Apache Camel v2
 
 Contributors: _Michael Thirion(Red Hat)_
 
-Explore the Solution Pattern: https://redhat-solution-patterns.github.io/solution-pattern-camel-migration
+Explore the Solution Pattern: https://www.solutionpatterns.io/solution-pattern-camel-migration

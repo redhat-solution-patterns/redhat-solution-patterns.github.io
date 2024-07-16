@@ -24,4 +24,4 @@ This architecture demonstrates how an Event-Driven Architecture with Red Hat AMQ
 
 Contributors: _Ritesh Shah (Red Hat), Jaya Christina Baskaran (Red Hat)_
 
-Explore the Solution Pattern: https://redhat-solution-patterns.github.io/solution-pattern-sentiment-analysis
+Explore the Solution Pattern: https://www.solutionpatterns.io/solution-pattern-sentiment-analysis

@@ -25,4 +25,4 @@ This architecture demonstrates how an Event-Driven Architecture with Red Hat AMQ
 
 Contributors: Jaya Christina Baskaran (Red Hat)
 
-Explore the Solution Pattern: https://redhat-solution-patterns.github.io/solution-pattern-api-versioning
+Explore the Solution Pattern: https://www.solutionpatterns.io/solution-pattern-api-versioning

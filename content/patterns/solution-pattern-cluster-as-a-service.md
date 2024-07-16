@@ -31,4 +31,4 @@ In this solution pattern you will discover how an API First Approach provides th
 
 Contributors: _Bernard Tison (Red Hat), Jaya Christina Baskaran (Red Hat)_
 
-Explore the Solution Pattern: https://redhat-solution-patterns.github.io/solution-pattern-cluster-as-a-service
+Explore the Solution Pattern: https://www.solutionpatterns.io/solution-pattern-cluster-as-a-service
