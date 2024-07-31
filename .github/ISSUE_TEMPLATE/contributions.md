@@ -1,6 +1,6 @@
 ---
 name: Contributions
-about: I have a new contribution to Solution Patterns
+about: Submit a new contribution to Solution Patterns
 title: ''
 labels: ''
 assignees: ''
