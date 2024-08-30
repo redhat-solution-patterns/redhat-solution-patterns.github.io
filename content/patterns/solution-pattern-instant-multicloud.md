@@ -2,7 +2,7 @@
 author = "Gaurav Midha (Red Hat)"
 title = "Instant Multi Cloud - Openshift Everywhere"
 date = "2019-03-05"
-description = "Discover how to easily deploy applications on Kuberenetes cluster in Multiple clouds using GitHub Actions"
+description = "Discover how to easily deploy applications on Kubernetes cluster in Multiple clouds using GitHub Actions"
 tags = [
     "3scale", "apis"
 ]
