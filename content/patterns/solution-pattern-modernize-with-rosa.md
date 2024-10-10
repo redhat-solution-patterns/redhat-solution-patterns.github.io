@@ -4,7 +4,7 @@ title = "Accelerate time to value with Red Hat Openshift Service on AWS"
 date = "2019-03-05"
 description = "Integrate Red Hat Openshift Service on AWS(ROSA) with different AWS services"
 tags = [
-    "3scale", "apis"
+    "OpenShift", "Hybrid Cloud"
 ]
 categories = [
     "themes",

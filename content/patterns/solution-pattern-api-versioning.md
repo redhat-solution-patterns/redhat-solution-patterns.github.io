@@ -4,7 +4,7 @@ title = "Navigate API evolution with versioning"
 date = "2019-04-02"
 description = "Navigate API evolution with versioning"
 tags = [
-    "kafka", "knative", "AI/ML"
+    "APIs", "3scale", "GitOps"
 ]
 categories = [
     "themes",

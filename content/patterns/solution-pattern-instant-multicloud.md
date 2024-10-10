@@ -4,7 +4,7 @@ title = "Instant Multi Cloud - Openshift Everywhere"
 date = "2019-03-05"
 description = "Discover how to easily deploy applications on Kuberenetes cluster in Multiple clouds using GitHub Actions"
 tags = [
-    "3scale", "apis"
+    "OpenShift", "Hybrid Cloud"
 ]
 categories = [
     "themes",

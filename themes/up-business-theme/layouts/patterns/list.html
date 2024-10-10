@@ -1,0 +1,194 @@
+
+{{ define "main" }}
+<section class=" py-5">
+  <div class="">
+  {{- /* Select pages. */}}
+  {{- $pages := .Pages.ByDate.Reverse  }}
+
+  {{- /* Get taxonomies and terms that are used in this section. */}}
+  {{- $taxonomies := partial "views/get-taxonomies" . }}
+  {{- $terms := partial "views/get-terms" . }}
+
+  {{- /* Configuration. */}}
+  {{- $cfg := dict
+    "formElemId"      "views-filter"
+    "listClass"       "views-list"
+    "listContainerId" "views-list-container"
+    "listItemClass"   "views-list-item"
+    "messageElemId"   "views-message"
+    "taxonomies"      (partial "views/get-map-keys.html" $taxonomies)
+  }}
+
+  {{- /* Create configuration data accessible via JavaScript. */}}
+  <div id="views-config" {{ (printf "data-views-config='%s'" (jsonify $cfg)) | safeHTMLAttr }}></div>
+
+  {{- /* Render the main portion of the page. */}}
+  <main>
+
+    <div class="container">
+    <div class="row">
+      <div class="col">
+        {{ with .Title }}
+          <h2 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h2>
+        {{ end }}
+        {{ with .Params.description }}
+          <p class="text-black-61 text-center pb-3">{{ . }}</p>
+        {{ end }}
+        <p class="text-black-61 text-center">{{ .Content }}</p>
+        {{- /* Render the form. */}}
+        
+      
+      </div>
+        
+    </div>
+    </div>
+
+    <div class="container-fluid px-5"  id="{{ $cfg.listContainerId }}" >
+
+        <div class="col p-3 px-10" >
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-2 ">
+                {{- if $taxonomies }}
+                <nav>
+                  <form id="{{ $cfg.formElemId }}">
+                    {{- range $taxonomy, $term := $terms }}
+                      {{- $taxonomyId := index $taxonomies $taxonomy "id" }}
+                      {{- $taxonomyLinkTitle := index $taxonomies $taxonomy "linkTitle" }}
+                      
+                      <strong><label for="{{ $taxonomyId }}">{{ $taxonomyLinkTitle }}</label> </strong><br>
+                        {{- range $k, $v := $term }}
+                          <input type="checkbox" id="{{ $taxonomyId }}" name="{{ .id }}cd /usr/local/bin" value="{{ .id }}">&nbsp; {{ .linkTitle }} <br>
+                        {{- end }}
+                      <br><br>
+                    {{- end }}
+                    <button onclick="reset()">Reset</button>
+                  </form>
+                </nav>
+              {{ end }}
+              {{- /* Render the status message. */}}
+              <div id="{{ $cfg.messageElemId }}"></div>
+            </div>
+              <div class="col">
+                <div class="row">
+                  
+                  {{- /* Range through the pages. */}}
+                  {{- range $k, $p := $pages }}
+          
+                    {{- /* Build a space-separated list of all terms ids. */}}
+                    {{- $dataTerms := slice }}
+                    {{- range $taxonomy, $_ := $taxonomies }}
+                      {{- with $p.GetTerms $taxonomy }}
+                        {{- range . }}
+                          {{- $dataTerms = $dataTerms | append (.Path | sha256 | first 7 | add "v") }}
+                        {{- end }}
+                      {{- end }}
+                    {{- end }}
+                    {{- $dataTerms = delimit $dataTerms " " }}
+          
+                    {{- /* Build other data attribute values. */}}
+                    {{- $dataId := add $k 1 }}
+                    {{- $dataDate := $p.PublishDate.UTC | time.Format "2006-01-02T15:04:05Z" }}
+          
+                    {{- /* Render the list item. */}}
+                    <div class="{{ $cfg.listItemClass }} col-3 pb-3" data-id="{{ $dataId }}" data-date="{{ $dataDate }}" data-title="{{ $p.Title }}" data-values="{{ $dataTerms }}">
+                    {{- $t := printf "%s.html" $cfg.listItemClass }}
+                    
+                    <!-- .. -->
+                    <a class="card text-decoration-none h-100" href="{{ .Params.externalurl }}" target="_pattern">            
+                          <div class="aspect-ratio-62-5">              
+                            <img src="{{.Params.headerimage  | absURL}}" alt="" class="img-responsive">
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title fw-semibold">{{ .Title }}</h5>
+                            <p class="card-text text-black-61">{{ .Summary | plainify }}</p>
+                          </div>
+                        </a>
+                    <!-- .. -->
+          
+          
+                    </div>
+          
+                  {{- end }}
+                </div>
+
+              </div>
+            
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </main>
+
+  {{- if $taxonomies }}
+
+    <script>
+      const cfg = JSON.parse(document.getElementById('views-config').dataset.viewsConfig);
+      console.log("cfg", cfg)
+        
+      const allPages = [...document.getElementsByClassName(cfg.listItemClass)];
+      const formElements = [...document.querySelectorAll('form#' + cfg.formElemId + ' > input[type=checkbox]')];
+      formElements.forEach(el => el.addEventListener('change', filter));
+      
+
+      function filter() { 
+        
+        var primarytag = document.getElementById(this);
+        if (primarytag) {
+            if (primarytag.classList.contains("active-tag")) {
+                primarytag.classList.add("pf-m-outline");
+                primarytag.classList.remove("active-tag");
+            } else {
+                primarytag.classList.add("active-tag");
+                primarytag.classList.remove("pf-m-outline");
+            }
+        }
+        
+        // Clear the messages container.
+        let viewsMessage = document.getElementById(cfg.messageElemId);
+        viewsMessage.innerHTML = '';
+        // Hide all pages.
+        allPages.forEach(page => page.style.display = 'none');
+        // Build object of matching pages by taxonomy.
+        const taxonomies = cfg.taxonomies;
+        const pages = [];
+        taxonomies.forEach(taxonomy => {
+          const term = document.getElementById(views-filter).elements[taxonomy].value;
+          // [attr~=value]
+          // Represents elements with an attribute name of attr whose value is
+          // a whitespace-separated list of words, one of which is exactly value.
+          let selector = '[data-values~="' + term + '"]';
+          pages.push([...document.querySelectorAll(selector)]);
+          
+        });
+        // Determine intersection of pages.
+        pagesToDisplay = pages.reduce((a, b) => a.filter(c => b.includes(c)));
+        // Display the pages.
+        pagesToDisplay.forEach(page => page.style.display = 'initial');
+        // Display message..
+        if (pagesToDisplay.length == 0) {
+          viewsMessage.innerHTML = '<p>No results.</p>';
+        } else {
+          viewsMessage.innerHTML = '<p>' + pagesToDisplay.length + ' items found.</p>';
+        }
+      }
+
+      function reset() {
+        document.getElementById(cfg.formElemId).reset;
+        filter();
+      }
+
+      // Function to return an array of tag data from the pattern summary cards
+      function getAttrs(elem) {
+          return elem.getAttribute("data-values").split(" ");
+      }
+    </script>
+
+  {{ end }}
+</div>
+</section>
+  {{ end }}

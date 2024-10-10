@@ -4,8 +4,9 @@ title = "Fuse to Apache Camel migration"
 date = "2019-04-01"
 description = "An accelerated path to migrating applications from Red Hat Fuse to Red Hat Build of Apache Camel based on templates."
 tags = [
-    "3scale", "apis"
+    "Camel", "Migration"
 ]
+"Red Hat Products" = [    "Apache Camel",    "Quarkus"]
 categories = [
     "themes",
     "syntax",

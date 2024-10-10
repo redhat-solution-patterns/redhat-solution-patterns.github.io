@@ -4,7 +4,7 @@ title = "MultiCloud GitOps with ODF"
 date = "2019-03-05"
 description = "Demonstrate how ArgoCD with Red Hat ACM can manage different clusters and applications deployed on those clusters"
 tags = [
-    "3scale", "apis"
+    "OpenShift", "Hybrid Cloud", "GitOps"
 ]
 categories = [
     "themes",

@@ -80,5 +80,5 @@ menus:
       weight: 5
 
 taxonomies:
-  series: "series"
   tags: "tags"
+  products: "Red Hat Products"

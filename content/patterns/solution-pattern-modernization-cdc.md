@@ -3,14 +3,12 @@ author = "Hugo Authors"
 title = "Modernize your stack by adopting Change Data Capture"
 date = "2019-03-05"
 description = "Extend capabilities with no changes to legacy apps through data integration and cause no impact to the existing stack"
-tags = [
-    "cdc", "app modernization"
-]
-categories = [
-    "themes",
-    "syntax",
-]
+
+
+"Red Hat Products" = ["Red Hat OpenShift", "Debezium"]
+tags = [ "cdc", "app modernization" ]
 series = ["Cloud Native Applications"]
+
 externalurl = "https://www.solutionpatterns.io/solution-pattern-modernization-cdc"
 headerimage = "images/patterns/solution-pattern-modernization-cdc.png"
 +++

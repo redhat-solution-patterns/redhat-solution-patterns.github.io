@@ -3,14 +3,12 @@ author = "Bruno Meseguer (Red Hat), Huge Guerrero (Red Hat)"
 title = "Edge to Core Data Pipelines for AI/ML"
 date = "2019-04-05"
 description = "Edge to Core Data Pipelines for AI/ML"
-tags = [
-    "kafka", "knative", "AI/ML"
-]
-categories = [
-    "themes",
-    "syntax",
-]
+"Red Hat Products" = ["OpenShift Serverless", "Apache Kafka"]
+tags = [ "kafka", "knative", "AI/ML" ]
 series = ["Cloud Native Applications"]
+
+
+
 externalurl = "https://www.solutionpatterns.io/solution-pattern-edge-to-cloud-pipelines"
 headerimage = "images/patterns/solution-pattern-edge-to-cloud-pipelines.png"
 +++

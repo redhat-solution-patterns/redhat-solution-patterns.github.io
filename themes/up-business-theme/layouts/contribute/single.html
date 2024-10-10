@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <section class="section blog-single py-5">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-12">
+          {{ with .Title }}
+            <h5 class="display-6 fw-bold text-center text-primary">{{ . }}</h5>
+          {{ end }}
+          {{ with .Params.description }}
+            <p class="text-black-61 display-7 text-center pb-3">{{ . }}</p>
+          {{ end }}
+        </div>
+      </div>
+      <div class="row pb-3">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="blog-content fst-normal">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+      <div class="row pb-5">
+      </div>
+    </div>
+  </section>
+{{ end }}

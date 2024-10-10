@@ -4,8 +4,9 @@ title = "API Management + Service Mesh"
 date = "2019-03-05"
 description = "Use API management and service mesh together to setup a comprehensive service management architecture"
 tags = [
-    "3scale", "servicemesh", "Istio"
+    "APIs", "Service mesh"
 ]
+"Red Hat Products" = [    "3scale API Management",    "OpenShift Service Mesh"]
 categories = [
     "themes",
     "syntax",

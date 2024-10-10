@@ -4,6 +4,7 @@ title = "Contributors Guide"
 tags = ["index"]
 description = "Here’s the place to learn how to contribute, either to existing solution patterns or by creating new ones."
 cssclass = "col-12 col-md-6 col-lg-3"
+type = "contribute"
 +++
 
 The Red Hat cloud native architecture (CNA) solution patterns are a set of opinionated practices on how to design, develop, integrate, automate and deliver cloud native applications. It targets common problems and use cases faced by organizations that target digital transformation through cloud adoption and who are on the journey of app modernization.

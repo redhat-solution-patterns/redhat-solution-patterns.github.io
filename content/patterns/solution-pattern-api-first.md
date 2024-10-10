@@ -3,8 +3,8 @@ author: "Bernard Tison (Red Hat), Jaya Christina Baskaran (Red Hat)"
 title: "Manage and Secure APIs with an API First Approach"
 date: 2024-03-o5
 description: Extend capabilities with no changes to legacy apps through data integration and cause no impact to the existing stack
+"Red Hat Products" : [    "3scale API Management",    "OpenShift Service Mesh"]
 tags: [    "3scale", "apis"]
-categories : [    "themes",    "syntax",]
 series: ["Cloud Native Applications"]
 externalurl: "https://www.solutionpatterns.io/solution-pattern-api-first"
 headerimage: "images/patterns/solution-pattern-api-first.png"
