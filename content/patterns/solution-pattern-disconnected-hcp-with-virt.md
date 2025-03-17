@@ -1,6 +1,6 @@
 +++
 author = "Gaurav Midha (Red Hat)"
-title = "Event-driven intelligent applications"
+title = "Run your private workloads in Disconnected HCP OpenShift clusters with OpenShift Virtualization"
 date = "2025-03-17"
 description = "Optimise resource utilisation and reduce costs for your private workloads by running it using Hosted Control Planes with OpenShift Virtualization in disconnected environment."
 tags = [
@@ -15,7 +15,7 @@ externalurl = "https://www.solutionpatterns.io/solution-pattern-disconnected-hcp
 headerimage = "images/patterns/solution-pattern-disconnected-hcp-with-virt.png"
 +++
 
-Run your private workloads in Disconnected HCP OpenShift clusters with OpenShift Virtualization
+Optimise resource utilisation and reduce costs for your private workloads by running it using Hosted Control Planes with OpenShift Virtualization in disconnected environment.
 
 <!--more-->
 Optimise resource utilisation and reduce costs for your private workloads by running it using Hosted Control Planes with OpenShift Virtualization in disconnected environment.
