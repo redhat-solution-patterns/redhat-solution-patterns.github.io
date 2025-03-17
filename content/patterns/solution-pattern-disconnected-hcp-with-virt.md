@@ -1,7 +1,7 @@
 +++
 author = "Gaurav Midha (Red Hat)"
 title = "Event-driven intelligent applications"
-date = "2025-03-18"
+date = "2025-03-17"
 description = "Optimise resource utilisation and reduce costs for your private workloads by running it using Hosted Control Planes with OpenShift Virtualization in disconnected environment."
 tags = [
     "virtualization", "hcp"
