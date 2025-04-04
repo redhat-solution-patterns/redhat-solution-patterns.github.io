@@ -1,7 +1,7 @@
 ---
 author: "Chris Suszynski (Red Hat)"
 title: "Building Apps around the Event Mesh"
-date: "2024-04-04"
+date: "2025-04-03"
 description: Building Apps around the Event Mesh
 tags: [  "serverless", "eventmesh", "knative"]
 categories : [    "themes",    "syntax",]
