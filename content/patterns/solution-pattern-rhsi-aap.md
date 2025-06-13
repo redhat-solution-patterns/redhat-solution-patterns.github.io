@@ -1,13 +1,13 @@
 ---
-author: "Jaya Christina Baskaran (Red Hat), Bernard Tison (Red Hat)"
-title: "Connect, Secure and Protect with Red Hat Connectivity Link"
+author: "Fernando Giorgetti (Red Hat)"
+title: "Using Red Hat Service Interconnect to extend the reach of Ansible Automation Platform"
 date: "2024-08-16"
-description: Connect, Secure and Protect with Red Hat Connectivity Link
-tags: [    "3scale", "apis"]
+description: Using Red Hat Service Interconnect to extend the reach of Ansible Automation Platform
+tags: [    "Service Interconnect", "Ansible"]
 categories : [    "themes",    "syntax",]
 series: ["Cloud Native Applications"]
-externalurl: "https://www.solutionpatterns.io/soln-pattern-connectivity-link"
-headerimage: "images/patterns/soln-pattern-connectivity-link.png"
+externalurl: "https://www.solutionpatterns.io/solution-pattern-rhsi-aap"
+headerimage: "images/patterns/solution-pattern-rhsi-aap.png"
 ---
 
 
