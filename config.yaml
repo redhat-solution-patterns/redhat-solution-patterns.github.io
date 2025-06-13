@@ -8,7 +8,7 @@ googleAnalytics: "G-0X54HQY5H8"
 
 summaryLength: 20
 
-paginate: 20
+pagination.pagerSize: 20
 
 params:
   title: "Solution Patterns"
