@@ -12,12 +12,6 @@ headerimage: "images/patterns/solution-pattern-rhsi-aap.png"
 
 
 
-Discover how you can simplify and secure application connectivity through Kubernetes-native, powerful policy APIs
+Using Red Hat Service Interconnect to extend the reach of Ansible Automation Platform
 
 <!--more-->
-
-
-
-Contributors: _Bernard Tison (Red Hat), Jaya Christina Baskaran (Red Hat)_
-
-Explore the Solution Pattern: https://www.solutionpatterns.io/soln-pattern-connectivity-link
