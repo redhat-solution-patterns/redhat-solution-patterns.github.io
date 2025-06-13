@@ -1,7 +1,7 @@
 ---
 author: "Fernando Giorgetti (Red Hat)"
 title: "Using Red Hat Service Interconnect to extend the reach of Ansible Automation Platform"
-date: "2024-08-16"
+date: "2025-06-13"
 description: Using Red Hat Service Interconnect to extend the reach of Ansible Automation Platform
 tags: [    "Service Interconnect", "Ansible"]
 categories : [    "themes",    "syntax",]
